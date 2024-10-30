@@ -1,0 +1,22 @@
+db.createUser({
+  user: "mongo",
+  pwd: "mongo",
+  roles: [{ role: "readWrite", db: "db_products" }]
+})
+
+
+
+mongodb://localhost:27017/
+
+
+use db_products
+db.getUsers()
+
+
+
+mongod --dbpath "C:\Program Files\MongoDB\Server\7.0\data" --bind_ip localhost
+
+
+mongodb://mongo:mongo@localhost:27017/db_products
+
+db.auth("mongo", "mongo")

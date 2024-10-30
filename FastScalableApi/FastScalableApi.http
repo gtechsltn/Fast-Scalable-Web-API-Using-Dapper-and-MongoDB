@@ -1,0 +1,6 @@
+@FastScalableApi_HostAddress = http://localhost:5268
+
+GET {{FastScalableApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
